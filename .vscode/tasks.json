@@ -1,0 +1,17 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build C++ file",
+            "type": "shell",
+            "command": "clang++",
+            "args": [
+                "${relativeFile}",
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
