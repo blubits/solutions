@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.rkt": "racket",
+        "*.md.html": "markdown",
+        "ostream": "cpp"
+    }
+}
