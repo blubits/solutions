@@ -7,5 +7,6 @@ def solve2(lines):
 
 
 with open("input") as input_file:
-    solve = solve1
-    print(solve([line.rstrip() for line in input_file.readlines()]))
+    lines = [line.rstrip() for line in input_file.readlines()]
+    print(solve1(lines))
+    print(solve2(lines))
