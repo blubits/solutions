@@ -1,5 +1,11 @@
+def linfunc(V):
+    def linearize(i, j):
+        return
+
 def solve1(lines):
-    pass
+    V = len(lines) * len(lines[0])
+    dist = [1e7] * V
+    dist[0]
 
 
 def solve2(lines):
