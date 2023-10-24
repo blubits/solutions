@@ -151,9 +151,7 @@ int main() {
         scanf("%d %d", &l, &r);
         l--; r--;
         int gc = st.range_query(l, r);
-        if (gc == 0) {
-            printf("0\n");
-        } else if (gc != minst.range_query(l, r)) {
+        if (gc != minst.range_query(l, r)) {
             printf("%d\n", r-l+1);
         } else {
             pair<int, int> p1 = make_pair(gc, l);

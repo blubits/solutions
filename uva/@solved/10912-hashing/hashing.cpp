@@ -25,7 +25,7 @@ int count(int L, int S, int c) {
     if (L > 26 || S > 351 || c > 25) return 0;
     if (dp[L][S][c] != -1) return dp[L][S][c];
     if (S - c > 0) {
-        return dp[L][S][c] = count(L - 1, S - c - 1, c + 1) + count(L, S, c + 1);
+        return dp[L][S][c] = count(L - 1, S - (c + 1), c + 1) + count(L, S, c + 1);
     } else {
         return dp[L][S][c] = count(L, S, c + 1);
     }
