@@ -52,7 +52,8 @@ int main() {
                 }
             }
         }
-        cout << (equal ? "YES" : "NO") << endl << endl;
+        cout << (equal ? "YES" : "NO") << endl;
+        if (T) cout << endl;
     }
     return 0;
 }
