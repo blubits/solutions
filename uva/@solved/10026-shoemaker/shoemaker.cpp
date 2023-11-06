@@ -31,10 +31,13 @@ int main() {
             jobs.push_back({a, b, i});
         }
         stable_sort(jobs.begin(), jobs.end(), comp);
+        int posn = 0;
         for (auto &[a, b, i]: jobs) {
-            cout << i << " ";
+            if (posn++ != 0) cout << " ";
+            cout << i;
         }
-        cout << endl << endl;
+        cout << endl;
+        if (T) cout << endl;
     }
     return 0;
 }
