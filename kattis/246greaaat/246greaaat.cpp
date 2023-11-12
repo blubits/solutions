@@ -15,6 +15,8 @@ int min_cheer = 0;
 
 int dist[400010], parent[400010], edge[400010];
 
+vector<queue<int>> q;
+
 int main() {
     int N, T;
     scanf("%d %d", &N, &T);
@@ -31,7 +33,8 @@ int main() {
     // }
 
     // djikstras prototype 1
-    priority_queue<tuple<int, int>, vector<tuple<int, int>>, greater<tuple<int, int>>> pq;
+    //priority_queue<tuple<int, int>, vector<tuple<int, int>>, greater<tuple<int, int>>> pq;
+    q.resize(T + 10);
     dist[0] = 0;
     parent[0] = -1;
     edge[0] = -1;
@@ -40,7 +43,7 @@ int main() {
         parent[i] = -1;
         edge[i] = -1;
     }
-    pq.emplace(0, 0);
+    q[0].emplace(0);
     
     while (!pq.empty()) {
         auto [d, u] = pq.top(); pq.pop();
