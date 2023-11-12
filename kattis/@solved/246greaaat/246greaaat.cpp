@@ -53,7 +53,7 @@ int main() {
         //auto [d, u] = pq.top(); pq.pop();
         if (q[d].empty()) continue;
         auto u = q[d].front(); q[d].pop();
-        //cout << d << " " << u << endl;
+        printf("d %d w/ vertex %d\n", d, u);
         if (dist[u] >= T + 1 || u == T) break;
         if (d > dist[u]) continue;
         for (auto &[s, w, i]: possible_moves) {
@@ -67,7 +67,7 @@ int main() {
             edge[v] = i;
             //pq.emplace(dist[v], u + s);
             q[dist[u] + w].emplace(u + s);
-            //printf("d %d u %d: s %d w %d i %d enq {dist %d, vertex %d}\n", d, u, s, w, i, dist[v], u + s);
+            printf("d %d u %d: s %d w %d i %d enq {dist %d, vertex %d}\n", d, u, s, w, i, dist[v], u + s);
         }
     }
 
