@@ -18,6 +18,8 @@ int dist[400010], parent[400010], edge[400010];
 vector<queue<int>> q;
 
 int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
     int N, T;
     scanf("%d %d", &N, &T);
     possible_moves.push_back({1, 1, 1});
@@ -43,21 +45,29 @@ int main() {
         parent[i] = -1;
         edge[i] = -1;
     }
+    //pq.emplace({0, 0});
     q[0].emplace(0);
     
-    while (!pq.empty()) {
-        auto [d, u] = pq.top(); pq.pop();
-        cout << d << " " << u << endl;
+    //while (!pq.empty()) {
+    for (int d = 0; d <= T; d += q[d].empty()) {
+        //auto [d, u] = pq.top(); pq.pop();
+        if (q[d].empty()) continue;
+        auto u = q[d].front(); q[d].pop();
+        //cout << d << " " << u << endl;
+        if (dist[u] >= T + 1 || u == T) break;
         if (d > dist[u]) continue;
         for (auto &[s, w, i]: possible_moves) {
+            int v = u + s;
             if (u <= T && s < 0) continue;
-            if (u + s > max_possible_vertex) continue;
-            if (dist[u] + w >= dist[u + s]) continue;
-            dist[u + s] = dist[u] + w;
-            parent[u + s] = u;
-            edge[u + s] = i;
-            pq.emplace(dist[u + s], u + s);
-            printf("d %d u %d: s %d w %d i %d enq {dist %d, vertex %d}\n", d, u, s, w, i, dist[u + s], u + s);
+            if (v > max_possible_vertex) continue;
+            if (dist[u] + w >= dist[v]) continue;
+            if (dist[u] + w > T + 1) continue;
+            dist[v] = dist[u] + w;
+            parent[v] = u;
+            edge[v] = i;
+            //pq.emplace(dist[v], u + s);
+            q[dist[u] + w].emplace(u + s);
+            //printf("d %d u %d: s %d w %d i %d enq {dist %d, vertex %d}\n", d, u, s, w, i, dist[v], u + s);
         }
     }
 
@@ -79,12 +89,12 @@ int main() {
         if (edge[curr_vertex] != -1) val.push(edge[curr_vertex]);
         curr_vertex = parent[curr_vertex];
     }
-    cout << val.size() << endl;
+    printf("%d\n", val.size());
     while (!val.empty()) {
-        cout << val.top();
+        printf("%d", val.top());
         val.pop();
-        if (!val.empty()) cout << " ";
+        if (!val.empty()) printf(" ");
     }
-
+    printf("\n");
     return 0;
 }
