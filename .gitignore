@@ -12,3 +12,8 @@ standard
 uppg
 courses
 .vscode
+autokattis.py
+kattis-dl.py
+kattis-open.py
+kattis-submit.py
+onlinejudge-dl.py
