@@ -8,11 +8,12 @@ sicp
 *.ans
 *.txt
 *.pdf
+*.pyc
 standard
 uppg
 courses
 .vscode
-autokattis.py
+kattis-all-problems.py
 kattis-dl.py
 kattis-open.py
 kattis-submit.py
