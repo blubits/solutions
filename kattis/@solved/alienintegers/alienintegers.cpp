@@ -44,6 +44,7 @@ int main() {
         if (bigger == "0") bigger = *digits_excluded.upper_bound('0');
         for (int i = 0; i < len; i++) bigger += *digits_excluded.begin();
     }
+
     auto closest_ld_below = (closest_ld_above == digits_excluded.begin()) ? digits_excluded.end() : (--digits_excluded.lower_bound(ld));
     if (closest_ld_below != digits_excluded.end()) {
         smaller = *closest_ld_below;
