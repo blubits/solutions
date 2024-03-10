@@ -22,7 +22,7 @@ def download_problem(problem_id):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Download sample test cases from Kattis and create a file called problem_id.cpp')
-    parser.add_argument('problem', metavar='N', type=str, help='Problem ID')
+    parser.add_argument('problems', metavar='id', type=str, help='Problem ID', nargs="+")
     args = parser.parse_args()
-    
-    download_problem(args.problem)
+    for problem in args.problems:
+        download_problem(problem)
