@@ -20,3 +20,5 @@ kattis-submit.py
 onlinejudge-dl.py
 .DS_Store
 @util
+geckodriver
+uva-dl.py

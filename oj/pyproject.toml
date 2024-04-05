@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "oj"
+version = "0.1.0"
+description = ""
+authors = ["Maded Batara III <dev@contact.blubits.me>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+selenium = "^4.19.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
