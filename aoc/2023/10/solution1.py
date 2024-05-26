@@ -39,9 +39,6 @@ def neighbors(i, j):
             neighbors_list.append((i, j + 1))
     return neighbors_list
         
-    
-
-
 Sx, Sy = -1, -1
 for i in range(len(grid)):
     for j in range(len(grid[i])):
