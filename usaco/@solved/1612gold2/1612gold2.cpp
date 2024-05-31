@@ -29,8 +29,8 @@ ll min_dist[1010][1010][2];
 vii hcows, gcows;
 
 int main() {
-    freopen("checklist.in", "r", stdin);
-	freopen("checklist.out", "w", stdout);
+    //freopen("checklist.in", "r", stdin);
+	//freopen("checklist.out", "w", stdout);
     int H, G;
     cin >> H >> G;
     for (int i = 0; i < H; i++) {
