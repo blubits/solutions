@@ -19,7 +19,7 @@ vector<vi> posns(3, vi());
 vector<vi> pcnt(30, vi(3, 0));
 
 // KKEEYY
-ll dp[500][31][31][31];
+ll dp[436][31][31][31];
 
 int main() {
     memset(dp, 0, sizeof(dp));
@@ -50,25 +50,25 @@ int main() {
     for (int k = 0; k <= posns[0].size(); k++) {
         for (int e = 0; e <= posns[1].size(); e++) {
             for (int y = 0; y <= posns[2].size(); y++) {
-                for (int sw = 0; sw < 500; sw++) {
+                for (int sw = 0; sw <= 435; sw++) {
                     if (k != posns[0].size()) {
                         int pos_k = posns[0][k];
                         int nswaps_k = max(0, pcnt[pos_k][1] - e) + max(0, pcnt[pos_k][2] - y);
-                        if (sw + nswaps_k < 500) {
+                        if (sw + nswaps_k <= 435) {
                             dp[sw + nswaps_k][k + 1][e][y] += dp[sw][k][e][y];
                         }
                     }
                     if (e != posns[1].size()) {
                         int pos_e = posns[1][e];
                         int nswaps_e = max(0, pcnt[pos_e][0] - k) + max(0, pcnt[pos_e][2] - y);
-                        if (sw + nswaps_e < 500) {
+                        if (sw + nswaps_e <= 435) {
                             dp[sw + nswaps_e][k][e + 1][y] += dp[sw][k][e][y];
                         }
                     }
                     if (y != posns[2].size()) {
                         int pos_y = posns[2][y];
                         int nswaps_y = max(0, pcnt[pos_y][0] - k) + max(0, pcnt[pos_y][1] - e);
-                        if (sw + nswaps_y < 500) {
+                        if (sw + nswaps_y <= 435) {
                             dp[sw + nswaps_y][k][e][y + 1] += dp[sw][k][e][y];
                         }
                     }
