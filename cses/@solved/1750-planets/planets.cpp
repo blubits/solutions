@@ -14,47 +14,45 @@ const ll LLINF = 0x3f3f3f3f3f3f3f3f;
 const double EPS = 1e-9;
 
 int n, q;
-vi parent;
-int ancestor[20][200010];
+vector<int> succ;
 
-void calculate_ancestors() {
-    int MAX_K = ceil(log2(n)); 
-    for (int v = 0; v <= n; v++) { ancestor[0][v] = parent[v]; }
+int succ_bin[32][200010];
+
+void calculate_successors() {
+    int MAX_K = 29; 
+    for (int v = 0; v <= n; v++) { succ_bin[0][v] = succ[v]; }
     for (int k = 1; k <= MAX_K; k++) {
         for (int v = 0; v <= n; v++) {
-            int mid = ancestor[k - 1][v];
-            if (mid == -1) ancestor[k][v] = -1;
-            else ancestor[k][v] = ancestor[k - 1][mid];
+            succ_bin[k][v] = succ_bin[k - 1][succ_bin[k - 1][v]];
         }
     }
 }
 
 int get_successor(int v, int k) {
-    int MAX_K = ceil(log2(n)); 
+    int MAX_K = 29; 
     for (int p = 0; p <= MAX_K; p++) {
         if (k & (1 << p)) {
-            v = ancestor[p][v];
-            if (v == -1) break;
+            v = succ_bin[p][v];
         }
     }
     return v;
 }
 
 int main() {
+    ios_base::sync_with_stdio(false);
+	cin.tie(NULL);
     cin >> n >> q;
-    parent.resize(n);
-    parent[0] = -1; 
-    for (int i = 1; i < n; i++) {
-        cin >> parent[i];
-        parent[i]--;
+    succ.resize(n);
+    for (int i = 0; i < n; i++) {
+        cin >> succ[i];
+        succ[i]--;
     }
-    calculate_ancestors();
+    calculate_successors();
     for (int i = 0; i < q; i++) {
         int a, b;
         cin >> a >> b;
         a--;
-        int ans = get_successor(a, b);
-        cout << ans + (ans == -1 ? 0 : 1) << endl;
+        cout << get_successor(a, b) + 1 << endl;
     }
     return 0;
 }
