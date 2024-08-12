@@ -69,8 +69,11 @@ int main() {
     vector<int> A(N);
     for (int i = 0; i < N; i++) cin >> A[i];
     for (int i = 0; i < M; i++) mf.insert(A[i]);
-    cout << mf.median()
+    cout << mf.median();
     for (int i = M; i < N; i++) {
-
+        mf.remove(A[i - M]);
+        mf.insert(A[i]);
+        cout << " " << mf.median();
     }
+    cout << endl;
 }
