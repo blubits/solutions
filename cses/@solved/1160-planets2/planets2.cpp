@@ -31,6 +31,9 @@ int cycle_timer = 0;
 
 int succ_bin[32][200010];
 
+// TODO: Explore alternate solution of numbering everything
+// to reduce # of cases to 3.
+
 void calculate_successors() {
     int MAX_K = 29; 
     for (int v = 0; v <= n; v++) { succ_bin[0][v] = succ[v]; }
@@ -107,8 +110,10 @@ void fill(int v) {
 
 tuple<int, int, int> identify_node(int v) {
     if (cycle_id[v] == -1) {
+        printf("%d: tree (%d, %d)\n", v, attachment_to_cycle[v], dist_from_cycle[v]);
         return {TREE_NODE, attachment_to_cycle[v], dist_from_cycle[v]};
     } else {
+        printf("%d: cycle (%d, %d)\n", v, cycle_id[v], cycle_posn[v]);
         return {CYCLE_NODE, cycle_id[v], cycle_posn[v]};
     }
 }
@@ -159,7 +164,6 @@ int main() {
             // a->c + c->b, c = mu
             int ans = dist_from_cycle[a];
             int c = attachment_to_cycle[a];
-            identify_node(c);
             int c_posn = cycle_posn[c];
             int b_cycle_id = get<1>(b_info);
             int b_posn = get<2>(b_info);
