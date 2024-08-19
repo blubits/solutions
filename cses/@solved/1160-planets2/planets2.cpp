@@ -110,10 +110,10 @@ void fill(int v) {
 
 tuple<int, int, int> identify_node(int v) {
     if (cycle_id[v] == -1) {
-        printf("%d: tree (%d, %d)\n", v, attachment_to_cycle[v], dist_from_cycle[v]);
+        //printf("%d: tree (attached to %d, dist %d)\n", v, attachment_to_cycle[v], dist_from_cycle[v]);
         return {TREE_NODE, attachment_to_cycle[v], dist_from_cycle[v]};
     } else {
-        printf("%d: cycle (%d, %d)\n", v, cycle_id[v], cycle_posn[v]);
+        //printf("%d: cycle (ID %d, posn %d)\n", v, cycle_id[v], cycle_posn[v]);
         return {CYCLE_NODE, cycle_id[v], cycle_posn[v]};
     }
 }
