@@ -16,6 +16,9 @@ const double EPS = 1e-9;
 int main() {
     int n;
     cin >> n;
-    cout << n * (n + 1) - n << endl;
+    int ans = 0;
+    for (int i = 1; i <= n; i++) ans += (2*i - 1);
+    for (int i = 1; i < n; i++) ans += (2*i - 1);
+    cout << ans << endl;
     return 0;
 }
