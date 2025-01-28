@@ -1,0 +1,199 @@
+{
+  "main": {
+    "id": "b3af5ca49d0fd93a",
+    "type": "split",
+    "children": [
+      {
+        "id": "32c261089642105d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dc91e67125069217",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HOME.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "HOME"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e1bef3297dd27efb",
+    "type": "split",
+    "children": [
+      {
+        "id": "137c256928011476",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8f2224f467a6fa49",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "f42e7c89dd11b64e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "1ce569f90931aaed",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 249.5
+  },
+  "right": {
+    "id": "457fe9bae39590e8",
+    "type": "split",
+    "children": [
+      {
+        "id": "45a4505fd4a9eaf6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "718291a71b46a854",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "HOME.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for HOME"
+            }
+          },
+          {
+            "id": "0f8e8f1f70001514",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "HOME.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from HOME"
+            }
+          },
+          {
+            "id": "9d977da2804cff37",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "b77e3d3ca93dca97",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "HOME.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of HOME"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "dc91e67125069217",
+  "lastOpenFiles": [
+    "kattis/@solved/zebrasocelots/EDITORIAL.md",
+    "HOME.md",
+    "kattis/@solved/getshorty/EDITORIAL.md",
+    "kattis/@solved/robotsonagrid/EDITORIAL.md",
+    "kattis/@solved/importspaghetti/EDITORIAL.md",
+    "kattis/@solved/goodmorning/EDITORIAL.md",
+    "kattis/@solved/geppetto/EDITORIAL.md",
+    "kattis/@solved/dreamer/EDITORIAL.md",
+    "kattis/@solved/arbitrage/EDITORIAL.md",
+    "kattis/@solved/presidentialelections/EDITORIAL.md",
+    "kattis/@solved/crackingrsa/EDITORIAL.md",
+    "kattis/@solved/communication/EDITORIAL.md",
+    "cf/@solved/474f-antcolony/EDITORIAL.md",
+    "kattis/@solved/calculatingdartscores/EDITORIAL.md",
+    "kattis/@solved/catandmice/EDITORIAL.md",
+    "usaco/@solved/1512platinum1/EDITORIAL.md",
+    "kattis/@solved/246greaaat/EDITORIAL.md",
+    "oj/@solved/11565-equations/EDITORIAL.md",
+    "oj/@solved/11571-extreme/EDITORIAL.md",
+    "kattis/@solved/3dprinter/EDITORIAL.md",
+    "atc/@solved/abc227-e/EDITORIAL.md",
+    "cses/@solved/1137-subtree/EDITORIAL.md",
+    "cses/@solved/1138-path/EDITORIAL.md",
+    "cses/@solved/1653-elevator/EDITORIAL.md",
+    "cf/@solved/1513d-gcdmst/EDITORIAL.md",
+    "@util/templates/editorial.md",
+    "Untitled"
+  ]
+}

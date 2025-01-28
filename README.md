@@ -1,10 +1,5 @@
 # Solutions
 
-Solutions to common competitive programming exercises found in:
+Solutions to common competitive programming exercises found in most online judges.
 
-* Online Judge
-* HackerRank
-* Kattis
-* Project Euler
-* Codeforces
-* Advent of Code
+Bundled in to some of these are editorials to the solutions.
