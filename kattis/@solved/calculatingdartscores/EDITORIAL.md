@@ -7,11 +7,11 @@ date-created: 2023-09-27
 date-updated: 2025-01-28
 status: complete
 
-problem_link: "https://open.kattis.com/problems/calculatingdartscores"
-problem_description: "Calculate dart scores."
-solution_summary: "Complete search."
-running_time: "Effectively $O(1)$"
-solution_link: "https://github.com/blubits/solutions/blob/main/kattis/@solved/calculatingdartscores/calculatingdartscores.cpp"
+problem-link: "https://open.kattis.com/problems/calculatingdartscores"
+problem-description: "Calculate dart scores."
+solution-summary: "Complete search."
+running-time: "Effectively $O(1)$"
+solution-link: "https://github.com/blubits/solutions/blob/main/kattis/@solved/calculatingdartscores/calculatingdartscores.cpp"
 tags:
     - complete-search
 ---

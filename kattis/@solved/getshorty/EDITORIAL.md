@@ -7,11 +7,11 @@ date-created: 2024-04-21
 date-updated: 2025-01-28
 status: incomplete
 
-problem_link: ""
-problem_description: ""
-solution_summary: ""
-running_time: ""
-solution_link: ""
+problem-link: ""
+problem-description: ""
+solution-summary: ""
+running-time: ""
+solution-link: ""
 tags:
     -
 ---

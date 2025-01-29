@@ -7,11 +7,11 @@ date-created: 2024-06-29
 date-updated: 2025-01-28
 status: complete
 
-problem_link: "https://open.kattis.com/problems/3dprinter"
-problem_description: "Count the number of days required to print a certain amount of statues."
-solution_summary: "Use a simple formula."
-running_time: "$O(1)$"
-solution_link: "https://github.com/blubits/solutions/blob/main/kattis/@solved/3dprinter/3dprinter.cpp"
+problem-link: "https://open.kattis.com/problems/3dprinter"
+problem-description: "Count the number of days required to print a certain amount of statues."
+solution-summary: "Use a simple formula."
+running-time: "$O(1)$"
+solution-link: "https://github.com/blubits/solutions/blob/main/kattis/@solved/3dprinter/3dprinter.cpp"
 tags:
     -
 ---

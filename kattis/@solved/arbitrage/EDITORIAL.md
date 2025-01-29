@@ -7,11 +7,11 @@ date-created: 2023-10-26
 date-updated: 2025-01-28
 status: complete
 
-problem_link: "https://open.kattis.com/problems/arbitrage>"
-problem_description: "Detect arbitrage given a sequence of exchange rates."
-solution_summary: "Modify Floyd-Warshall's algorithm."
-running_time: "$O(n^3)$"
-solution_link: "https://github.com/blubits/solutions/blob/main/kattis/@solved/arbitrage/arbitrage.cpp"
+problem-link: "https://open.kattis.com/problems/arbitrage>"
+problem-description: "Detect arbitrage given a sequence of exchange rates."
+solution-summary: "Modify Floyd-Warshall's algorithm."
+running-time: "$O(n^3)$"
+solution-link: "https://github.com/blubits/solutions/blob/main/kattis/@solved/arbitrage/arbitrage.cpp"
 tags:
     - graph-theory
     - shortest-paths

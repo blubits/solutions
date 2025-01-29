@@ -7,11 +7,11 @@ date-created: 2024-06-29
 date-updated: 2025-01-28
 status: complete
 
-problem_link: "https://codeforces.com/contest/1513/problem/D"
-problem_description: "Find the MST of an implicit graph based on the GCD of subarrays of a list."
-solution_summary: "Generate the implicit graph and use Kruskal's algorithm."
-running_time: "$O(n \\log n)$"
-solution_link: "https://github.com/blubits/solutions/blob/main/cf/@solved/1513d-gcdmst/gcdmst.cpp"
+problem-link: "https://codeforces.com/contest/1513/problem/D"
+problem-description: "Find the MST of an implicit graph based on the GCD of subarrays of a list."
+solution-summary: "Generate the implicit graph and use Kruskal's algorithm."
+running-time: "$O(n \\log n)$"
+solution-link: "https://github.com/blubits/solutions/blob/main/cf/@solved/1513d-gcdmst/gcdmst.cpp"
 tags:
     - mst
 ---

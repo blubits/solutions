@@ -7,11 +7,11 @@ date-created: 2023-10-25
 date-updated: 2025-01-28
 status: complete
 
-problem_link: "https://open.kattis.com/problems/importspaghetti"
-problem_description: "Find the shortest circular dependency in a program, if one exists."
-solution_summary: "Use Floyd-Warshall to check for cycles."
-running_time: "$O(n^3)$"
-solution_link: "https://github.com/blubits/solutions/blob/main/kattis/@solved/importspaghetti/importspaghetti.cpp"
+problem-link: "https://open.kattis.com/problems/importspaghetti"
+problem-description: "Find the shortest circular dependency in a program, if one exists."
+solution-summary: "Use Floyd-Warshall to check for cycles."
+running-time: "$O(n^3)$"
+solution-link: "https://github.com/blubits/solutions/blob/main/kattis/@solved/importspaghetti/importspaghetti.cpp"
 tags:
     - graph-theory
     - shortest-paths

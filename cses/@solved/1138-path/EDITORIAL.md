@@ -7,11 +7,11 @@ date-created: 2024-07-30
 date-updated: 2025-01-28
 status: complete
 
-problem_link: "https://cses.fi/problemset/task/1138/"
-problem_description: "Get the path sum in a changing tree."
-solution_summary: "Create a tree traversal array with an RUPQ data structure."
-running_time: "$O(q \\log n)$"
-solution_link: "https://github.com/blubits/solutions/blob/main/cses/@solved/1138-path/path.cpp"
+problem-link: "https://cses.fi/problemset/task/1138/"
+problem-description: "Get the path sum in a changing tree."
+solution-summary: "Create a tree traversal array with an RUPQ data structure."
+running-time: "$O(q \\log n)$"
+solution-link: "https://github.com/blubits/solutions/blob/main/cses/@solved/1138-path/path.cpp"
 tags:
     - range-query
     - tree

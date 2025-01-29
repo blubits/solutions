@@ -7,11 +7,11 @@ date-created: 2023-06-24
 date-updated: 2025-01-28
 status: complete
 
-problem_link: "open.kattis.com/problems/zebrasocelots"
-problem_description: "Count the number of times a peculiar event can happen."
-solution_summary: "Convert decimal to binary."
-running_time: "$O(n)$"
-solution_link: "https://github.com/blubits/solutions/blob/main/kattis/@solved/zebrasocelots/zebrasocelots.cpp"
+problem-link: "open.kattis.com/problems/zebrasocelots"
+problem-description: "Count the number of times a peculiar event can happen."
+solution-summary: "Convert decimal to binary."
+running-time: "$O(n)$"
+solution-link: "https://github.com/blubits/solutions/blob/main/kattis/@solved/zebrasocelots/zebrasocelots.cpp"
 tags:
     - implementation
 ---

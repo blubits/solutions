@@ -7,11 +7,11 @@ date-created: 2024-08-06
 date-updated: 2025-01-28
 status: complete
 
-problem_link: "https://onlinejudge.org/external/115/11565.pdf"
-problem_description: "Given $A, B, C$, find any $x, y, z$ that satisfies the given equations."
-solution_summary: "Complete search over $x, y, z$ with pruning."
-running_time: "$O(n^3)$"
-solution_link: "https://github.com/blubits/solutions/blob/main/oj/@solved/11565-equations/equations.cpp"
+problem-link: "https://onlinejudge.org/external/115/11565.pdf"
+problem-description: "Given $A, B, C$, find any $x, y, z$ that satisfies the given equations."
+solution-summary: "Complete search over $x, y, z$ with pruning."
+running-time: "$O(n^3)$"
+solution-link: "https://github.com/blubits/solutions/blob/main/oj/@solved/11565-equations/equations.cpp"
 tags:
     - complete-search
 ---

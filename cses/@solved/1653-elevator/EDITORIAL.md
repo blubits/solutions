@@ -7,11 +7,11 @@ date-created: 2024-04-23
 date-updated: 2025-01-28
 status: complete
 
-problem_link: "https://cses.fi/problemset/task/1653"
-problem_description: "Find the optimal number of elevator rides for a set of people."
-solution_summary: "Perform DP on subsets."
-running_time: "$O(n2^n)$"
-solution_link: "https://github.com/blubits/solutions/blob/main/cses/@solved/1653-elevator/elevator.cpp"
+problem-link: "https://cses.fi/problemset/task/1653"
+problem-description: "Find the optimal number of elevator rides for a set of people."
+solution-summary: "Perform DP on subsets."
+running-time: "$O(n2^n)$"
+solution-link: "https://github.com/blubits/solutions/blob/main/cses/@solved/1653-elevator/elevator.cpp"
 tags:
     - dp
     - subset-dp

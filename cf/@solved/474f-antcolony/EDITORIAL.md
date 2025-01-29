@@ -7,11 +7,11 @@ date-created: 2023-08-04
 date-updated: 2025-01-28
 status: incomplete
 
-problem_link: "https://codeforces.com/contest/474/problem/F"
-problem_description: "Count the number of ants to be eaten by a mole, given special conditions."
-solution_summary: "Create a range GCD tree and a range minimum tree."
-running_time: "$O(q \\log n)$"
-solution_link: "https://github.com/blubits/solutions/blob/main/cf/%40solved/474f-antcolony/antcolony.cpp"
+problem-link: "https://codeforces.com/contest/474/problem/F"
+problem-description: "Count the number of ants to be eaten by a mole, given special conditions."
+solution-summary: "Create a range GCD tree and a range minimum tree."
+running-time: "$O(q \\log n)$"
+solution-link: "https://github.com/blubits/solutions/blob/main/cf/%40solved/474f-antcolony/antcolony.cpp"
 tags:
     - range-query
 ---

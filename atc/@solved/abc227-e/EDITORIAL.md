@@ -7,11 +7,11 @@ date-created: 2024-06-29
 date-updated: 2025-01-28
 status: complete
 
-problem_link: "https://atcoder.jp/contests/abc227/tasks/abc227_e"
-problem_description: "Count the number of strings that can be generated from $S$ after $k$ swaps."
-solution_summary: "Perform DP on ranges: $c(s, k, e, y)$."
-running_time: "$O(k^5)$"
-solution_link: "https://github.com/blubits/solutions/blob/main/atc/@solved/abc227-e/e.cpp"
+problem-link: "https://atcoder.jp/contests/abc227/tasks/abc227_e"
+problem-description: "Count the number of strings that can be generated from $S$ after $k$ swaps."
+solution-summary: "Perform DP on ranges: $c(s, k, e, y)$."
+running-time: "$O(k^5)$"
+solution-link: "https://github.com/blubits/solutions/blob/main/atc/@solved/abc227-e/e.cpp"
 tags:
     - dp
     - range-dp

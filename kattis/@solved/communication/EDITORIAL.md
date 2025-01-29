@@ -7,11 +7,11 @@ date-created: 2023-09-27
 date-updated: 2025-01-28
 status: complete
 
-problem_link: "https://open.kattis.com/problems/communication"
-problem_description: "Unscramble sent messages."
-solution_summary: "Complete search, or precomputation."
-running_time: "$O(q)$"
-solution_link: "https://github.com/blubits/solutions/blob/main/kattis/@solved/communication/communication.cpp"
+problem-link: "https://open.kattis.com/problems/communication"
+problem-description: "Unscramble sent messages."
+solution-summary: "Complete search, or precomputation."
+running-time: "$O(q)$"
+solution-link: "https://github.com/blubits/solutions/blob/main/kattis/@solved/communication/communication.cpp"
 tags:
     - complete-search
 ---

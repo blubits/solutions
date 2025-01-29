@@ -7,11 +7,11 @@ date-created: 2023-11-14
 date-updated: 2025-01-28
 status: complete
 
-problem_link: "https://open.kattis.com/problems/robotsonagrid"
-problem_description: "Count the number of paths a robot can take between two ends of a grid."
-solution_summary: "DFS on a state DP graph."
-running_time: "$O(n^2)$"
-solution_link: ""
+problem-link: "https://open.kattis.com/problems/robotsonagrid"
+problem-description: "Count the number of paths a robot can take between two ends of a grid."
+solution-summary: "DFS on a state DP graph."
+running-time: "$O(n^2)$"
+solution-link: ""
 tags:
     - dp
     - dag

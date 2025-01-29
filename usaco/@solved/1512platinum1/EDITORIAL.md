@@ -7,11 +7,11 @@ date-created: 2024-08-21
 date-updated: 2025-01-28
 status: complete
 
-problem_link: "https://usaco.org/index.php?page=viewproblem2&cpid=576"
-problem_description: "Find the maximum flow of milk along any stall."
-solution_summary: "Counting paths via DP through the LCA."
-running_time: "Roughly $O(n \\log n)$"
-solution_link: "https://github.com/blubits/solutions/blob/main/usaco/%40solved/1512platinum1/1512platinum1.cpp"
+problem-link: "https://usaco.org/index.php?page=viewproblem2&cpid=576"
+problem-description: "Find the maximum flow of milk along any stall."
+solution-summary: "Counting paths via DP through the LCA."
+running-time: "Roughly $O(n \\log n)$"
+solution-link: "https://github.com/blubits/solutions/blob/main/usaco/%40solved/1512platinum1/1512platinum1.cpp"
 tags:
     - dp
     - tree

@@ -7,11 +7,11 @@ date-created: 2023-09-27
 date-updated: 2025-01-28
 status: complete
 
-problem_link: "https://open.kattis.com/problems/geppetto"
-problem_description: "Determine all possible unique, legal pizza combinations."
-solution_summary: "Complete search."
-running_time: "$O(m2^n)$"
-solution_link: "https://github.com/blubits/solutions/blob/main/kattis/@solved/geppetto/geppetto.cpp"
+problem-link: "https://open.kattis.com/problems/geppetto"
+problem-description: "Determine all possible unique, legal pizza combinations."
+solution-summary: "Complete search."
+running-time: "$O(m2^n)$"
+solution-link: "https://github.com/blubits/solutions/blob/main/kattis/@solved/geppetto/geppetto.cpp"
 tags:
     - complete-search
 ---

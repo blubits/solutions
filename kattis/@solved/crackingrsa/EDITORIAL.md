@@ -7,11 +7,11 @@ date-created: 2023-09-28
 date-updated: 2025-01-28
 status: complete
 
-problem_link: "https://open.kattis.com/problems/crackingrsa"
-problem_description: "Crack a message encrypted via RSA."
-solution_summary: "Complete search."
-running_time: "$O(npq)$"
-solution_link: "https://github.com/blubits/solutions/blob/main/kattis/@solved/crackingrsa/crackingrsa.cpp"
+problem-link: "https://open.kattis.com/problems/crackingrsa"
+problem-description: "Crack a message encrypted via RSA."
+solution-summary: "Complete search."
+running-time: "$O(npq)$"
+solution-link: "https://github.com/blubits/solutions/blob/main/kattis/@solved/crackingrsa/crackingrsa.cpp"
 tags:
     - complete-search
     - number-theory

@@ -7,11 +7,11 @@ date-created: 2023-09-30
 date-updated: 2025-01-28
 status: complete
 
-problem_link: "https://open.kattis.com/problems/goodmorning"
-problem_description: "Find the closest valid possible input on a number pad."
-solution_summary: "Complete search with backtracking."
-running_time: "$O(5^n)$"
-solution_link: "https://github.com/blubits/solutions/blob/main/kattis/@solved/goodmorning/goodmorning.cpp"
+problem-link: "https://open.kattis.com/problems/goodmorning"
+problem-description: "Find the closest valid possible input on a number pad."
+solution-summary: "Complete search with backtracking."
+running-time: "$O(5^n)$"
+solution-link: "https://github.com/blubits/solutions/blob/main/kattis/@solved/goodmorning/goodmorning.cpp"
 tags:
     - complete-search
 ---

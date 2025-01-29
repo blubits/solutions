@@ -7,11 +7,11 @@ date-created: 2024-07-28
 date-updated: 2025-01-28
 status: complete
 
-problem_link: "https://cses.fi/problemset/task/1137/"
-problem_description: "Get the subtree sum in a changing tree."
-solution_summary: "Create a tree traversal array with a PURQ data structure."
-running_time: "$O(q \\log n)$"
-solution_link: "https://github.com/blubits/solutions/blob/main/cses/@solved/1137-subtree/subtree.cpp"
+problem-link: "https://cses.fi/problemset/task/1137/"
+problem-description: "Get the subtree sum in a changing tree."
+solution-summary: "Create a tree traversal array with a PURQ data structure."
+running-time: "$O(q \\log n)$"
+solution-link: "https://github.com/blubits/solutions/blob/main/cses/@solved/1137-subtree/subtree.cpp"
 tags:
     - range-query
     - tree

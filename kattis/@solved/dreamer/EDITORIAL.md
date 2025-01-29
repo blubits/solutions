@@ -7,11 +7,11 @@ date-created: 2023-09-27
 date-updated: 2025-01-28
 status: complete
 
-problem_link: "https://open.kattis.com/problems/dreamer"
-problem_description: "Count valid dates containing all digits."
-solution_summary: "Complete search."
-running_time: "$O(8! \\cdot n)$"
-solution_link: "https://github.com/blubits/solutions/blob/main/kattis/@solved/dreamer/dreamer.cpp"
+problem-link: "https://open.kattis.com/problems/dreamer"
+problem-description: "Count valid dates containing all digits."
+solution-summary: "Complete search."
+running-time: "$O(8! \\cdot n)$"
+solution-link: "https://github.com/blubits/solutions/blob/main/kattis/@solved/dreamer/dreamer.cpp"
 tags:
     - complete-search
 ---

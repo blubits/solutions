@@ -7,11 +7,11 @@ date-created: 2023-11-10
 date-updated: 2025-01-28
 status: draft
 
-problem_link: "https://open.kattis.com/problems/246greaaat"
-problem_description: "Find an optimal sequence of cheers for a given enthusiasm level."
-solution_summary: "Perform modified Djikstra's on a DP state graph."
-running_time: "$O(|E| + |V|)$"
-solution_link: "https://github.com/blubits/solutions/blob/main/kattis/@solved/246greaaat/246greaaat.cpp"
+problem-link: "https://open.kattis.com/problems/246greaaat"
+problem-description: "Find an optimal sequence of cheers for a given enthusiasm level."
+solution-summary: "Perform modified Djikstra's on a DP state graph."
+running-time: "$O(|E| + |V|)$"
+solution-link: "https://github.com/blubits/solutions/blob/main/kattis/@solved/246greaaat/246greaaat.cpp"
 tags:
     - dp
     - graph-theory

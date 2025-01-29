@@ -4,16 +4,17 @@ code: "11571"
 title: "Simple Equations - Extreme!!"
 
 date-created: 2024-08-06
-date-updated: 2025-01-28
+date-updated: 2025-01-29
 status: complete
 
-problem_link: "https://onlinejudge.org/external/115/11571.pdf"
-problem_description: "Given $A, B, C$, find any $x, y, z$ that satisfies the given equations."
-solution_summary: "Complete search through factors of $B$."
-running_time: "$O(\\sigma_0(B)) \\approx O(\\log{B})$"
-solution_link: "https://github.com/blubits/solutions/blob/main/oj/@solved/11571-extreme/extreme.cpp"
+problem-link: "https://onlinejudge.org/external/115/11571.pdf"
+problem-description: "Given $A, B, C$, find any $x, y, z$ that satisfies the given equations."
+solution-summary: "Complete search through factors of $B$."
+running-time: "$O(\\sigma_0(B)) \\approx O(\\log{B})$"
+solution-link: "https://github.com/blubits/solutions/blob/main/oj/@solved/11571-extreme/extreme.cpp"
 tags:
-    -
+    - complete-search
+    - number-theory
 ---
 
 # OJ `11571` - Simple Equations - Extreme!!

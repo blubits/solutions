@@ -7,11 +7,11 @@ date-created: 2024-04-22
 date-updated: 2025-01-28
 status: complete
 
-problem_link: "https://open.kattis.com/problems/catandmice"
-problem_description: "Determine the minimum velocity in which a cat can catch all hiding mice."
-solution_summary: "DP on subsets: $f(M, i)$."
-running_time: "$O(n^2 2^n \\ log (\\max V))$"
-solution_link: "https://github.com/blubits/solutions/blob/main/kattis/%40solved/catandmice/catandmice.cpp"
+problem-link: "https://open.kattis.com/problems/catandmice"
+problem-description: "Determine the minimum velocity in which a cat can catch all hiding mice."
+solution-summary: "DP on subsets: $f(M, i)$."
+running-time: "$O(n^2 2^n \\ log (\\max V))$"
+solution-link: "https://github.com/blubits/solutions/blob/main/kattis/%40solved/catandmice/catandmice.cpp"
 tags:
     - dp
     - subset-dp

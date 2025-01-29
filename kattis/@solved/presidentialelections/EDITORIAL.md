@@ -7,11 +7,11 @@ date-created: 2024-06-05
 date-updated: 2025-01-28
 status: complete
 
-problem_link: "https://open.kattis.com/problems/presidentialelections"
-problem_description: "Count how many votes you need to win a majority."
-solution_summary: "Knapsack-type DP with preprocessing."
-running_time: "$O(S \\ cdot \\max{D})$"
-solution_link: "https://github.com/blubits/solutions/blob/main/kattis/%40solved/presidentialelections/presidentialelections.cpp"
+problem-link: "https://open.kattis.com/problems/presidentialelections"
+problem-description: "Count how many votes you need to win a majority."
+solution-summary: "Knapsack-type DP with preprocessing."
+running-time: "$O(S \\ cdot \\max{D})$"
+solution-link: "https://github.com/blubits/solutions/blob/main/kattis/%40solved/presidentialelections/presidentialelections.cpp"
 tags:
     - dp
     - knapsack-dp

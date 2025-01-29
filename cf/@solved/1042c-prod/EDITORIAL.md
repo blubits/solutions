@@ -7,11 +7,11 @@ date-created: 2025-01-29
 date-updated: 2025-01-29
 status: complete
 
-problem_link: "https://codeforces.com/problemset/problem/1042/C"
-problem_description: "Determine an optimal set of operations to get the maximum product."
-solution_summary: "Merge all undesirable elements, delete the merge, then merge the rest."
-running_time: "$O(n)$"
-solution_link: "https://github.com/blubits/solutions/blob/main/cf/%40solved/1042c-prod/prod.cpp"
+problem-link: "https://codeforces.com/problemset/problem/1042/C"
+problem-description: "Determine an optimal set of operations to get the maximum product."
+solution-summary: "Merge all undesirable elements, delete the merge, then merge the rest."
+running-time: "$O(n)$"
+solution-link: "https://github.com/blubits/solutions/blob/main/cf/%40solved/1042c-prod/prod.cpp"
 tags:
     - constructive-algorithm
 ---
