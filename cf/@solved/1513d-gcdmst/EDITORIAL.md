@@ -4,7 +4,7 @@ code: "1513d-gcdmst"
 title: "GCD and MST"
 
 date-created: 2024-06-29
-date-updated: 2025-01-28
+date-updated: 2025-01-30
 status: complete
 
 problem-link: "https://codeforces.com/contest/1513/problem/D"
@@ -14,6 +14,7 @@ running-time: "$O(n \\log n)$"
 solution-link: "https://github.com/blubits/solutions/blob/main/cf/@solved/1513d-gcdmst/gcdmst.cpp"
 tags:
     - mst
+    - number-theory
 ---
 
 # Codeforces `1513D` - GCD and MST

@@ -19,8 +19,21 @@ int main() {
     cin >> n;
     string s;
     cin >> s;
-    char t[n + 1];
-    t[n] = '\0';
-    
+    string alt1, alt2;
+    for (int i = 0; i < n; i++) {
+        if (i & 1) {
+            alt2 += s[i];
+        } else {
+            alt1 += s[i];
+        }
+    }
+    if (n % 2 == 0) {
+        reverse(alt1.begin(), alt1.end());
+        cout << alt1 << alt2 << endl;
+    } else {
+        reverse(alt2.begin(), alt2.end());
+        cout << alt2 << alt1 << endl;
+    }
+
     return 0;
 }

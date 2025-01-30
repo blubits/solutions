@@ -4,7 +4,7 @@ code: "11565"
 title: "Simple Equations"
 
 date-created: 2024-08-06
-date-updated: 2025-01-28
+date-updated: 2025-01-30
 status: complete
 
 problem-link: "https://onlinejudge.org/external/115/11565.pdf"

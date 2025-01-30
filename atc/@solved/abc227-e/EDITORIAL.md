@@ -4,7 +4,7 @@ code: "abc227-e"
 title: "Swap"
 
 date-created: 2024-06-29
-date-updated: 2025-01-28
+date-updated: 2025-01-30
 status: complete
 
 problem-link: "https://atcoder.jp/contests/abc227/tasks/abc227_e"
